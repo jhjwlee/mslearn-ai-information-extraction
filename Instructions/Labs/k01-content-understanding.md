@@ -39,6 +39,7 @@
         *   Australia East
         *   Sweden Central
         *   West US
+![Screenshot of Azure AI Foundry portal.](./media/1-3-create-advanced.png)
 
     > **참고**: 리소스 이름에 제한을 두는 정책이 있는 Azure 구독을 사용하는 경우, **Create a new project** 대화 상자 하단의 링크를 통해 Azure 포털에서 허브를 직접 생성해야 할 수 있습니다.
     >
