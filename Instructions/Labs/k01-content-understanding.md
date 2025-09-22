@@ -69,7 +69,7 @@
 3.  Content Understanding custom task 페이지에서 **+ Create**를 선택하고 다음 설정으로 작업을 생성합니다.
     *   **Task name**: `Invoice analysis`
     *   **Description**: `Extract data from an invoice`
-    *   **Single file content analysis**: 선택됨
+    *   **Standard mode**: 선택됨
     *   **Advanced settings**:
         *   **Azure AI services connection**: Azure AI Foundry hub에 있는 Azure AI Services 리소스
         *   **Azure Blob Storage account**: Azure AI Foundry hub의 기본 스토리지 계정
