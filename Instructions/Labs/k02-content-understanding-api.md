@@ -68,21 +68,21 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
    ls -a -l
 ```
 
-    이 폴더에는 두 개의 스캔된 명함 이미지 파일과 앱을 빌드하는 데 필요한 Python 코드 파일들이 포함되어 있습니다.
+이 폴더에는 두 개의 스캔된 명함 이미지 파일과 앱을 빌드하는 데 필요한 Python 코드 파일들이 포함되어 있습니다.
 
 6.  Cloud Shell 명령줄 창에서 다음 명령어를 실행하여 사용할 라이브러리들을 설치합니다.
 
-    ```
+```
    python -m venv labenv
    ./labenv/bin/Activate.ps1
    pip install -r requirements.txt
-    ```
+ ```
 
 7.  제공된 설정 파일을 편집하기 위해 다음 명령어를 입력합니다.
 
-    ```
+```
    code .env
-    ```
+```
 
     이 명령을 실행하면 코드 편집기에서 `.env` 파일이 열립니다. 이 파일은 API 키와 같은 민감한 정보를 코드와 분리하여 안전하게 관리하는 데 사용됩니다.
 
@@ -93,17 +93,17 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
 
 10. Cloud Shell 명령줄에서 다음 명령어를 입력하여 제공된 **biz-card.json** JSON 파일을 확인합니다.
 
-    ```
+ ```
    cat biz-card.json
-    ```
+ ```
 
     Cloud Shell 창을 스크롤하여 파일 내용을 살펴보세요. 이 JSON 파일은 명함에서 어떤 정보를 추출할지를 정의하는 분석기 스키마(schema)입니다. 즉, 우리가 만들 분석기의 '설계도'와 같습니다.
 
 11. 분석기용 JSON 파일을 확인했다면, 다음 명령어를 입력하여 제공된 **create-analyzer.py** Python 코드 파일을 편집합니다.
 
-    ```
+```
    code create-analyzer.py
-    ```
+ ```
 
     코드 편집기에서 Python 코드 파일이 열립니다.
 
@@ -114,7 +114,7 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
 
 13. **create_analyzer** 함수 내에서 **`# Create a Content Understanding analyzer`** 주석을 찾은 다음, 그 아래에 다음 코드를 추가합니다. (올바른 들여쓰기를 유지하도록 주의하세요):
 
-    ```python
+ ```python
    # Create a Content Understanding analyzer
    print (f"Creating {analyzer}")
 
@@ -158,7 +158,7 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
    else:
         print("Analyzer creation failed.")
         print(result_response.json())
-    ```
+ ```
 
 14. 추가한 코드를 검토하며 각 부분이 어떤 역할을 하는지 이해해 봅시다.
     -   REST 요청에 필요한 헤더(headers)를 생성합니다. 여기에는 인증을 위한 구독 키가 포함됩니다.
@@ -173,9 +173,9 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
 15. **CTRL+S**를 눌러 코드 변경 사항을 저장합니다. 코드에 오류가 있을 경우 수정을 위해 코드 편집기 창은 열어두세요. 창 크기를 조절하여 명령줄 창을 명확하게 볼 수 있도록 합니다.
 16. Cloud Shell 명령줄 창에서 다음 명령어를 입력하여 Python 코드를 실행합니다.
 
-    ```
+ ```
    python create-analyzer.py
-    ```
+ ```
 
 17. 프로그램의 출력 결과를 확인합니다. 분석기가 성공적으로 생성되었다는 메시지가 나타나야 합니다.
 
@@ -185,11 +185,11 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
 
 1.  Cloud Shell 명령줄에서 다음 명령어를 입력하여 제공된 **read-card.py** Python 코드 파일을 편집합니다.
 
-    ```
+ ```
    code read-card.py
-    ```
+ ```
 
-    코드 편집기에서 Python 코드 파일이 열립니다.
+ 코드 편집기에서 Python 코드 파일이 열립니다.
 
 2.  코드를 검토해 보세요. 이 코드는 다음과 같은 작업을 수행하도록 구성되어 있습니다.
     -   분석할 이미지 파일을 식별하며, 기본값은 **biz-card-1.png**입니다.
@@ -198,7 +198,7 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
 
 3.  **analyze_card** 함수 내에서 **`# Use Content Understanding to analyze the image`** 주석을 찾은 다음, 그 아래에 다음 코드를 추가합니다. (올바른 들여쓰기를 유지하도록 주의하세요):
 
-    ```python
+ ```python
    # Use Content Understanding to analyze the image
    print (f"Analyzing {image_file}")
 
@@ -263,7 +263,7 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
                         print(f"{field_name}: {field_data['valueTime']}")
                     elif field_data['type'] == "array":
                         print(f"{field_name}: {field_data['valueArray']}")
-    ```
+ ```
 
 4.  추가한 코드를 다시 한번 검토해 봅시다.
     -   이미지 파일의 내용을 읽습니다.
@@ -278,29 +278,31 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
 5.  **CTRL+S**를 눌러 코드 변경 사항을 저장합니다. 코드에 오류가 있을 경우 수정을 위해 코드 편집기 창은 열어두세요. 창 크기를 조절하여 명령줄 창을 명확하게 볼 수 있도록 합니다.
 6.  Cloud Shell 명령줄 창에서 다음 명령어를 입력하여 Python 코드를 실행합니다.
 
-    ```
+  ```
    python read-card.py biz-card-1.png
-    ```
+ ```
 
 7.  프로그램의 출력 결과를 확인합니다. 다음 명함 이미지의 필드 값들이 추출되어 표시되어야 합니다.
+
 
     ![A business card for Roberto Tamburello, an Adventure Works Cycles employee.](./media/biz-card-1.png)
 
 8.  다음 명령어를 사용하여 다른 명함 이미지로 프로그램을 실행해 봅니다.
 
-    ```
+```
    python read-card.py biz-card-2.png
-    ```
+ ```
 
 9.  결과를 확인합니다. 이번에는 아래 명함 이미지에 있는 값들이 반영되어야 합니다.
 
-    ![A business card for Mary Duartes, an Contoso employee.](./media/biz-card-2.png)
 
-10. Cloud Shell 명령줄 창에서 다음 명령어를 사용하여 서비스로부터 반환된 전체 JSON 응답을 확인해 봅니다.
+     ![A business card for Mary Duartes, an Contoso employee.](./media/biz-card-2.png)
 
-    ```
+11. Cloud Shell 명령줄 창에서 다음 명령어를 사용하여 서비스로부터 반환된 전체 JSON 응답을 확인해 봅니다.
+
+  ```
    cat results.json
-    ```
+  ```
 
     창을 스크롤하여 전체 JSON 구조와 내용을 살펴보세요. 추출된 값뿐만 아니라 신뢰도 점수, 경계 상자 좌표 등 훨씬 더 풍부한 정보가 포함되어 있음을 알 수 있습니다.
 
