@@ -16,6 +16,7 @@ lab:
 
 1.  웹 브라우저에서 `https://ai.azure.com` 주소로 [Azure AI Foundry 포털](https://ai.azure.com)을 열고 Azure 자격 증명으로 로그인합니다. 처음 로그인할 때 나타나는 팁이나 빠른 시작 창은 모두 닫아주세요. 필요한 경우, 왼쪽 상단의 **Azure AI Foundry** 로고를 클릭하여 다음과 유사한 홈페이지로 이동합니다(도움말 창이 열려 있다면 닫아주세요).
 
+
     ![Screenshot of Azure AI Foundry portal.](./media/ai-foundry-home.png)
 
 2.  브라우저에서 `https://ai.azure.com/managementCenter/allResources`로 이동하여 **Create new**를 선택합니다. 그런 다음 **AI hub resource**를 새로 생성하는 옵션을 선택합니다.
