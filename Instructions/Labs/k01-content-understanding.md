@@ -89,7 +89,7 @@
 | `VendorPhone` | `Vendor telephone number` | String | Extract |
 | `ShippingFee` | `Fee for shipping` | Number | Extract |
 
-![Screenshot of Azure AI Foundry portal.](./media/1-2-add-new-field.png)
+![Screenshot of Azure AI Foundry portal.](./media/1-4-add-new-field.png)
 
 10. **Items** 필드 행을 보면, 이 필드가 **table** 타입(송장 내의 품목 목록)인 것을 확인할 수 있습니다. **Edit** (편집 아이콘)을 클릭하여 하위 필드 편집 페이지로 이동합니다.
 11. **Items** 테이블에서 다음 하위 필드들을 제거합니다:
