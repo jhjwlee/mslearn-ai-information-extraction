@@ -185,7 +185,10 @@
     *   **Description**: `Slide image analyzer`
 2.  분석기 빌드가 완료되면, **Test** 탭으로 이동하여 **slide-2.jpg** 파일을 업로드하고 **Run analysis**를 실행합니다.
 3.  **Fields** 창에서 추출된 결과를 확인합니다. 두 번째 슬라이드에는 제품 카테고리 관련 정보가 없으므로 해당 필드는 비어있는 것이 정상입니다.
-4.  **Results**와 **Code example** 탭을 검토한 후, **slide-analyzer** 페이지를 닫습니다.
+
+   ![Image of a slide containing one chart for Contoso Ltd revenue data.](./media/slide-2.jpg)
+   
+5.  **Results**와 **Code example** 탭을 검토한 후, **slide-analyzer** 페이지를 닫습니다.
 
 ## 3. 음성사서함 오디오 녹음에서 정보 추출하기
 
