@@ -25,10 +25,12 @@
 > *   **Project**: 특정 AI 작업을 위한 개별 컨테이너입니다. 이 실습에서는 '콘텐츠 정보 추출'이라는 특정 작업을 위해 하나의 프로젝트를 생성합니다.
 
 1.  웹 브라우저에서 [Azure AI Foundry 포털](https://ai.azure.com) (`https://ai.azure.com`)을 열고 Azure 자격 증명으로 로그인합니다. 처음 로그인할 때 나타나는 팁이나 빠른 시작 창은 닫고, 필요한 경우 왼쪽 상단의 **Azure AI Foundry** 로고를 클릭하여 홈 페이지로 이동합니다.
+   
+   ![Screenshot of Azure AI Foundry portal.](./media/ai-foundry-home.png)
 
-2.  브라우저에서 `https://ai.azure.com/managementCenter/allResources`로 이동하여 **Create new**를 선택한 다음, **AI hub resource**를 생성하는 옵션을 선택합니다.
-
-3.  **Create a project** 마법사에서 프로젝트에 유효한 이름을 입력하고, 새 허브를 생성하는 옵션을 선택합니다. 그런 다음 **Rename hub** 링크를 사용하여 새 허브의 이름을 지정하고, **Advanced options**를 확장하여 다음 설정을 지정합니다.
+3.  브라우저에서 `https://ai.azure.com/rResources`로 이동하여 **Create new**를 선택한 다음, **AI hub resource**를 생성하는 옵션을 선택합니다.
+![Screenshot of Azure AI Foundry portal.](./1-2-aihub-resources.png)
+4.  **Create a project** 마법사에서 프로젝트에 유효한 이름을 입력하고, 새 허브를 생성하는 옵션을 선택합니다. 그런 다음 **Rename hub** 링크를 사용하여 새 허브의 이름을 지정하고, **Advanced options**를 확장하여 다음 설정을 지정합니다.
     *   **Subscription**: 사용자의 Azure 구독
     *   **Resource group**: 기존 리소스 그룹을 선택하거나 새로 생성
     *   **Region**: 다음 위치 중 하나를 선택합니다. (*이 문서를 작성하는 시점에서 Azure AI Content Understanding은 아래 지역에서만 사용 가능합니다.*):
@@ -40,7 +42,7 @@
     >
     > **팁**: **Create** 버튼이 비활성화되어 있다면, 허브 이름을 고유한 영숫자 값으로 변경해보세요.
 
-4.  프로젝트가 생성될 때까지 기다립니다.
+5.  프로젝트가 생성될 때까지 기다립니다.
 
 ## 콘텐츠 다운로드하기
 
