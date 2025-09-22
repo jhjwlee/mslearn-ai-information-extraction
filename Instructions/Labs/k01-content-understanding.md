@@ -115,11 +115,14 @@
 2.  새 분석기가 준비될 때까지 기다립니다 (**Refresh** 버튼으로 상태 확인).
 3.  분석기가 빌드되면 **invoice-analyzer** 링크를 클릭합니다.
 4.  **invoice-analyzer** 페이지에서 **Test** 탭을 선택합니다.
-5.  **+ Upload test files** 버튼을 사용하여 **invoice-1235.pdf** 파일을 업로드하고, **Run analysis**를 클릭하여 송장에서 필드 데이터를 추출합니다.
-6.  **Fields** 창을 검토하여 분석기가 테스트 송장에서 올바른 필드를 추출했는지 확인합니다.
-7.  **Results** 창을 검토하여 분석기가 클라이언트 애플리케이션에 반환할 JSON 응답을 확인합니다.
-8.  **Code example** 탭에서 Content Understanding REST API를 사용하여 이 분석기를 호출하는 클라이언트 애플리케이션 개발에 사용할 수 있는 샘플 코드를 확인합니다.
-9.  **invoice-analyzer** 페이지를 닫습니다.
+
+   ![Screenshot of a schema for an invoice.](./media/1-5-test.png)
+
+6.  **+ Upload test files** 버튼을 사용하여 **invoice-1235.pdf** 파일을 업로드하고, **Run analysis**를 클릭하여 송장에서 필드 데이터를 추출합니다.
+7.  **Fields** 창을 검토하여 분석기가 테스트 송장에서 올바른 필드를 추출했는지 확인합니다.
+8.  **Results** 창을 검토하여 분석기가 클라이언트 애플리케이션에 반환할 JSON 응답을 확인합니다.
+9.  **Code example** 탭에서 Content Understanding REST API를 사용하여 이 분석기를 호출하는 클라이언트 애플리케이션 개발에 사용할 수 있는 샘플 코드를 확인합니다.
+10.  **invoice-analyzer** 페이지를 닫습니다.
 
 ## 2. 슬라이드 이미지에서 정보 추출하기
 
