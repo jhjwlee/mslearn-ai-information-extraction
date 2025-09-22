@@ -30,7 +30,7 @@
 
 3.  브라우저에서 `https://ai.azure.com/rResources`로 이동하여 **Create new**를 선택한 다음, **AI hub resource**를 생성하는 옵션을 선택합니다.
    
-![Screenshot of Azure AI Foundry portal.](./1-2-aihub-resources.png)
+![Screenshot of Azure AI Foundry portal.](./media/1-2-aihub-resources.png)
 
 5.  **Create a project** 마법사에서 프로젝트에 유효한 이름을 입력하고, 새 허브를 생성하는 옵션을 선택합니다. 그런 다음 **Rename hub** 링크를 사용하여 새 허브의 이름을 지정하고, **Advanced options**를 확장하여 다음 설정을 지정합니다.
     *   **Subscription**: 사용자의 Azure 구독
