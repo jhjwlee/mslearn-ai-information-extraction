@@ -304,7 +304,7 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
    cat results.json
   ```
 
-    창을 스크롤하여 전체 JSON 구조와 내용을 살펴보세요. 추출된 값뿐만 아니라 신뢰도 점수, 경계 상자 좌표 등 훨씬 더 풍부한 정보가 포함되어 있음을 알 수 있습니다.
+창을 스크롤하여 전체 JSON 구조와 내용을 살펴보세요. 추출된 값뿐만 아니라 신뢰도 점수, 경계 상자 좌표 등 훨씬 더 풍부한 정보가 포함되어 있음을 알 수 있습니다.
 
 ## 정리
 
