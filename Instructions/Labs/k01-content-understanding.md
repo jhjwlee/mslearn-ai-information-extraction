@@ -92,7 +92,7 @@
 ![Screenshot of Azure AI Foundry portal.](./media/1-4-add-new-field.png)
 
 10. **Items** 필드 행을 보면, 이 필드가 **table** 타입(송장 내의 품목 목록)인 것을 확인할 수 있습니다. **Edit** (편집 아이콘)을 클릭하여 하위 필드 편집 페이지로 이동합니다.
-11. **Items** 테이블에서 다음 하위 필드들을 제거합니다:
+11. **Items** 테이블 [오른쪽 테이블 아이콘 클릭!]에서 다음 하위 필드들을 제거합니다:
     *   Date, ProductCode, Unit, TaxAmount, TaxRate
 12. **OK** 버튼을 눌러 변경 사항을 확정하고 상위 스키마로 돌아옵니다.
 13. 완성된 스키마가 아래 이미지와 같은지 확인하고 **Save**를 클릭합니다.
