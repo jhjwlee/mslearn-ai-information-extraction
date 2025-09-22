@@ -96,8 +96,13 @@
     *   Date, ProductCode, Unit, TaxAmount, TaxRate
 12. **OK** 버튼을 눌러 변경 사항을 확정하고 상위 스키마로 돌아옵니다.
 13. 완성된 스키마가 아래 이미지와 같은지 확인하고 **Save**를 클릭합니다.
-14. **Test Analyzer** 페이지에서 분석이 자동으로 시작되지 않으면 **Run analysis**를 클릭하고 분석이 완료될 때까지 기다립니다.
-15. 분석 결과를 검토합니다. **Fields** 창에서 식별된 각 필드의 상세 내용을 확인할 수 있습니다.
+
+     ![Screenshot of a schema for a slide image.](./media/slide-schema.png)
+    
+15. **Test Analyzer** 페이지에서 분석이 자동으로 시작되지 않으면 **Run analysis**를 클릭하고 분석이 완료될 때까지 기다립니다.
+16. 분석 결과를 검토합니다. **Fields** 창에서 식별된 각 필드의 상세 내용을 확인할 수 있습니다.
+
+    ![Screenshot of image analysis test results.](./media/slide-analysis.png)
 
 ### 송장용 분석기(Analyzer) 빌드 및 테스트하기
 
