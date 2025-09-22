@@ -84,7 +84,7 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
    code .env
 ```
 
-    이 명령을 실행하면 코드 편집기에서 `.env` 파일이 열립니다. 이 파일은 API 키와 같은 민감한 정보를 코드와 분리하여 안전하게 관리하는 데 사용됩니다.
+이 명령을 실행하면 코드 편집기에서 `.env` 파일이 열립니다. 이 파일은 API 키와 같은 민감한 정보를 코드와 분리하여 안전하게 관리하는 데 사용됩니다.
 
 8.  코드 파일에서 **YOUR_ENDPOINT**와 **YOUR_KEY** 자리 표시자를 Azure Portal에서 복사한 Azure AI 서비스의 엔드포인트(endpoint)와 키(key) 값 중 하나로 각각 교체합니다. 그리고 **ANALYZER_NAME**이 `business-card-analyzer`로 설정되어 있는지 확인합니다.
 9.  자리 표시자를 모두 교체한 후, 코드 편집기 내에서 **CTRL+S**를 눌러 변경 사항을 저장하고, **CTRL+Q**를 눌러 코드 편집기를 닫습니다. Cloud Shell 명령줄은 계속 열어 둡니다.
@@ -97,7 +97,7 @@ git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction
    cat biz-card.json
  ```
 
-    Cloud Shell 창을 스크롤하여 파일 내용을 살펴보세요. 이 JSON 파일은 명함에서 어떤 정보를 추출할지를 정의하는 분석기 스키마(schema)입니다. 즉, 우리가 만들 분석기의 '설계도'와 같습니다.
+Cloud Shell 창을 스크롤하여 파일 내용을 살펴보세요. 이 JSON 파일은 명함에서 어떤 정보를 추출할지를 정의하는 분석기 스키마(schema)입니다. 즉, 우리가 만들 분석기의 '설계도'와 같습니다.
 
 11. 분석기용 JSON 파일을 확인했다면, 다음 명령어를 입력하여 제공된 **create-analyzer.py** Python 코드 파일을 편집합니다.
 
