@@ -75,11 +75,14 @@
         *   **Azure Blob Storage account**: Azure AI Foundry hub의 기본 스토리지 계정
 4.  작업이 생성될 때까지 기다립니다. (만약 스토리지 접근 오류가 발생하면, 잠시 기다렸다가 다시 시도하세요. 새 허브의 권한 전파에는 몇 분이 걸릴 수 있습니다.)
 5.  **Define schema** 페이지에서 압축을 푼 폴더의 **invoice-1234.pdf** 파일을 업로드합니다.
-6.  파일 업로드 후, **Invoice data extraction** 템플릿을 선택하고 **Create**를 클릭합니다.
-7.  제안된 필드 목록에서 이 송장 형식에 필요 없는 **BillingAddress**를 선택하고, 나타나는 **Delete field** (휴지통 아이콘)을 클릭하여 삭제합니다.
-8.  마찬가지로, 다음의 불필요한 필드들도 삭제합니다:
+
+   ![Image of an invoice number 1234.](./media/invoice-1234.png)
+   
+7.  파일 업로드 후, **Invoice data extraction** 템플릿을 선택하고 **Create**를 클릭합니다.
+8.  제안된 필드 목록에서 이 송장 형식에 필요 없는 **BillingAddress**를 선택하고, 나타나는 **Delete field** (휴지통 아이콘)을 클릭하여 삭제합니다.
+9.  마찬가지로, 다음의 불필요한 필드들도 삭제합니다:
     *   BillingAddressRecipient, CustomerAddressRecipient, CustomerId, CustomerTaxId, DueDate, InvoiceTotal, PaymentTerm, PreviousUnpaidBalance, PurchaseOrder, RemittanceAddress, RemittanceAddressRecipient, ServiceAddress, ServiceAddressRecipient, ShippingAddress, ShippingAddressRecipient, TotalDiscount, VendorAddressRecipient, VendorTaxId, TaxDetails
-9.  **+ Add new field** 버튼을 사용하여 다음 필드들을 추가하고, 각 필드를 추가할 때마다 **Save changes** (체크 아이콘)를 클릭합니다:
+10.  **+ Add new field** 버튼을 사용하여 다음 필드들을 추가하고, 각 필드를 추가할 때마다 **Save changes** (체크 아이콘)를 클릭합니다:
 
 | Field name | Field description | Value type | Method |
 | :--- | :--- | :--- | :--- |
