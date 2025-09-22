@@ -165,8 +165,15 @@
 | `ProductCategory` | `Product category name` | String | Generate |
 | `RevenuePercentage` | `Percentage of revenue` | Number | Generate |
 
-7.  완성된 스키마를 확인하고 **Save**를 클릭한 후, **Test Analyzer** 페이지에서 **Run analysis**를 실행합니다.
-8.  분석 결과를 검토합니다. **Fields** 창에서 **QuarterlyRevenue**와 **ProductCategories**를 확장하여 AI가 차트 데이터를 어떻게 구조화된 테이블로 변환했는지 확인합니다.
+7.  완성된 스키마를 확인하고 **Save**를 클릭한 후,
+
+   ![Screenshot of a schema for a slide image.](./media/slide-schema.png)
+
+   **Test Analyzer** 페이지에서 **Run analysis**를 실행합니다.
+
+   ![Image of a slide containing two charts for Adventure Works Cycles revenue data.](./media/slide-1.jpg)
+   
+10.  분석 결과를 검토합니다. **Fields** 창에서 **QuarterlyRevenue**와 **ProductCategories**를 확장하여 AI가 차트 데이터를 어떻게 구조화된 테이블로 변환했는지 확인합니다.
 
 ### 분석기 빌드 및 테스트하기
 
