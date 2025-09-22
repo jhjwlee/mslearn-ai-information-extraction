@@ -55,11 +55,11 @@ lab:
 
 4.  Cloud Shell 창에 다음 명령어를 입력하여 이 실습에 필요한 코드 파일이 포함된 GitHub 리포지토리를 복제(clone)합니다. (명령어를 직접 입력하거나, 클립보드에 복사한 후 명령줄에서 마우스 오른쪽 버튼을 클릭하여 일반 텍스트로 붙여넣으세요):
 
-
     ```
    rm -r mslearn-ai-info -f
    git clone https://github.com/microsoftlearning/mslearn-ai-information-extraction mslearn-ai-info
     ```
+
 
     > **팁**: Cloud Shell에 명령어를 입력하다 보면 출력이 화면을 가득 채울 수 있습니다. 이때 `cls` 명령어를 입력하면 화면을 깨끗하게 정리하여 각 작업에 더 집중할 수 있습니다.
 
